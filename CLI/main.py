@@ -1,6 +1,7 @@
 import subprocess
 import shutil
 import os
+import sys
 
 def extreme_compress(input_path, output_path, target_bitrate="1500k", fps=None):
     """
